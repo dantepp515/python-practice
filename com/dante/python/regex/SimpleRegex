@@ -1,0 +1,8 @@
+import re;
+
+pattern = "\A";
+str = "foobar";
+m = re.match(pattern , str);
+print(m.group());
+m = re.search( pattern , str );
+print(m.group())
